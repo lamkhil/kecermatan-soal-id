@@ -1,0 +1,172 @@
+.table-column-questions > tbody > tr > td, .table-column-questions > tbody > tr > th , .table-questions > tbody > tr > td, .table-questions > tbody > tbody > tr > th{
+    padding: 2px !important;
+}
+
+
+.table-questions>thead>tr>th {
+    font-size: 3rem;
+    width: 160px;
+    height: 85px;
+    max-width: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.table-questions>tbody>tr>td {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50px;
+    height: 55px;
+    max-width: 55px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .table-column-questions>thead>tr>th {
+    font-size: 3rem;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+} */
+
+.table-column-questions>tbody>tr>th {
+    font-size: 7rem;
+    width: 160px;
+    height: 200px;
+    max-width: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.table-column-questions>tbody>tr>td {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 160px;
+    height: 70px;
+    max-width: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (min-width : 280px) and (max-width : 318px) {
+
+ /* .table-column-questions>thead>tr>th {
+    font-size: 1.8rem;
+    height: 44px;
+} */
+
+ .table-column-questions>tbody>tr>th {
+    font-size: 3rem;
+    height: 75px;
+    max-width: 100px;
+}
+
+ .table-column-questions>tbody>tr>td {
+    font-size: 2rem;
+    height: 45px;
+}
+
+ .table-questions>thead>tr>th {
+    font-size: 2.5rem;
+    height: 50px;
+}
+
+ .table-questions>tbody>tr>td {
+    font-size: 1.5rem;
+    height: 40px;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width : 319px) and (max-width : 325px) {
+/* .table-column-questions>thead>tr>th {
+    font-size: 2rem;
+    height: 45px;
+} */
+
+.table-column-questions>tbody>tr>th {
+    font-size: 4rem;
+    height: 90px;
+}
+
+.table-column-questions>tbody>tr>td {
+    font-size: 2rem;
+    height: 50px;
+}
+
+.table-questions>thead>tr>th {
+    font-size: 3rem;
+    height: 60px;
+}
+
+.table-questions>tbody>tr>td {
+    font-size: 2rem;
+    width: 50px;
+}
+
+}
+
+
+@media screen and (min-width : 326px) and (max-width : 480px) {
+    
+/* .table-column-questions>thead>tr>th {
+    font-size: 2rem;
+    height: 45px;
+} */
+
+.table-column-questions>tbody>tr>th {
+    font-size: 5rem;
+    height: 100px;
+}
+
+
+}
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+
+/* .table-column-questions>thead>tr>th {
+        font-size: 2rem;
+        height: 45px;
+    } */
+
+.table-column-questions>tbody>tr>th {
+        font-size: 5rem;
+        height: 100px;
+    }
+
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+/* .table-column-questions>thead>tr>th {
+    font-size: 2rem;
+    height: 45px;
+} */
+
+.table-column-questions>tbody>tr>th {
+    font-size: 5rem;
+    height: 100px;
+}
+
+
+.table-questions>thead>tr>th {
+    font-size: 1.6rem;
+    height: 40px;
+}
+
+.table-questions>tbody>tr>td {
+    font-size: 1.5rem;
+    height: 35px;
+}
+
+
+
+}
