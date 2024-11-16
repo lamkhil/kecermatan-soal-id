@@ -167,7 +167,7 @@ class WebController extends Controller
 
         return response()->json(['success' => 
 
-            'Halo+Kak+Afa%2C+%0ASaya+ingin+mendaftar+paket+KECERMATAN+CAT+POLRI%0A%0ANama+%3A+'.urlencode(Auth()->user()->name).'%0AEmail+%3A+'.Auth()->user()->email.'%0ANama+Paket+yang+dipilih+%3A+'.urlencode($paket->nama_paket_bundle).'%0ADurasi+paket+yang+dipilih+%3A+'.$paket->durasi_paket_bundle.'+Hari'
+            'Halo+Kak+Okta%2C+%0ASaya+ingin+mendaftar+paket+KECERMATAN+CAT+POLRI%0A%0ANama+%3A+'.urlencode(Auth()->user()->name).'%0AEmail+%3A+'.Auth()->user()->email.'%0ANama+Paket+yang+dipilih+%3A+'.urlencode($paket->nama_paket_bundle).'%0ADurasi+paket+yang+dipilih+%3A+'.$paket->durasi_paket_bundle.'+Hari'
     
         ]);
 

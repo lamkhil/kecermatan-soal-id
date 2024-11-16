@@ -283,7 +283,7 @@
          var col1=currentRow.find("td:eq(0)").text(); 
          var col2=currentRow.find("td:eq(1)").text(); 
          var col3=currentRow.find("td:eq(2)").text(); 
-         var data="https://wa.me/{{$config['web'] !== null ? $config['web']->no_wa : ''}}?text=Halo+Kak+Afa%2C+%0ASaya+ingin+mendaftar+paket+KECERMATAN+CAT+POLRI%0A%0ANama+%3A+{{urlencode(Auth()->user()->name)}}%0AEmail+%3A+{{Auth()->user()->email}}%0ANama+Paket+yang+dipilih+%3A+"+encodeURIComponent(col2)+"%0ADurasi+paket+yang+dipilih+%3A+"+encodeURIComponent(col3);
+         var data="https://wa.me/{{$config['web'] !== null ? $config['web']->no_wa : ''}}?text=Halo+Kak+Okta%2C+%0ASaya+ingin+mendaftar+paket+KECERMATAN+CAT+POLRI%0A%0ANama+%3A+{{urlencode(Auth()->user()->name)}}%0AEmail+%3A+{{Auth()->user()->email}}%0ANama+Paket+yang+dipilih+%3A+"+encodeURIComponent(col2)+"%0ADurasi+paket+yang+dipilih+%3A+"+encodeURIComponent(col3);
          
          $('.btn-pay-info').attr('href',data);
 
